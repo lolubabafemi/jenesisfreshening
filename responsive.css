@@ -1,0 +1,309 @@
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 576px) {
+
+
+  body {
+    text-align: center;
+    max-width: 100%;
+    /* overflow: hidden; */
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    display: none;
+  }
+
+
+  main {
+    margin-left: 0px;
+  }
+
+  .long-text {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+  /*********************** LANDING PAGE ************************/
+
+  #landing {
+    max-width: 100%;
+    /* background: none; */
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    box-shadow: 5px 4px 19px -1px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: 5px 4px 19px -1px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 5px 4px 19px -1px rgba(0, 0, 0, 0.21);
+  }
+
+  .logoimage2 {
+    margin-bottom: 0px;
+    padding: 20px;
+    border-radius: 10px;
+    /* background-color: rgba(252, 252, 252, 0.7); */
+    display: flex;
+    width: 60%;
+  }
+  
+
+  #landing h1 {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    font-weight: 800;
+    font-size: 24px;
+    background-color: rgba(252, 252, 252, 0.7);;
+  }
+
+  #landing p {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(24, 25, 26, 0.7);
+    width: 80%;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  /*************** EXPERT SECTION ***************** */
+
+  #expert {
+    background-color: #3b1111;
+    color: #a27c35;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .expertline {
+    display: none;
+  }
+
+  
+#expert > div {
+  background-color: rgba(235, 242, 250, 0.9);
+  padding: 10px;
+}
+
+
+  /*************** ABOUT US ***************** */
+
+  #aboutus {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/header.jpg);
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #aboutus2 {
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    padding: 20px 60px;
+    justify-content: center;
+    background-color: rgba(23, 23, 24, 0.9);
+    margin-bottom: 0px;
+  }
+
+  .smilingwoman2 {
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .smilingwoman {
+    display: none;
+  }
+
+  #aboutuscontent {
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  #aboutuscontent hr {
+    display: none;
+  }
+
+  .visionmisson {
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .visionmisson h3 {
+    color: #a27c35;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-decoration: underline;
+  }
+  
+  .visionmisson p {
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+/*************** OUR SERVICES ***************** */
+
+
+
+  #displayservices {
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  margin-top: 10px;
+  background-size: cover;
+  }
+
+
+  #displayserviceswhite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+
+
+  #examples {
+    background: none;
+    padding: 0px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    margin-bottom: 0px;
+  }
+
+  #examples p {
+    margin-top: 0px;
+    font-size: 16px;
+  }
+
+
+  .servicesoffered {
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    width: 70%;
+    padding: 10px;
+  }
+
+  .cleanicon {
+   display: none;
+  }
+
+
+  /* gallery  */
+
+
+  .galleryline, #gallery {
+    display: none;
+  }
+
+
+  .galleryline, #gallery {
+    display: none;
+  }
+
+
+
+
+
+
+  /* <!-- WHY CHOOSE US  --> */
+
+#whyus {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 10px;
+  color: #3d4c58;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  gap: 90px;
+}
+
+#whyus h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+
+#whyus img {
+  display: none;
+}
+
+#whyus hr {
+  width: 100%;
+}
+
+
+
+/* footer **************** */
+
+footer {
+  text-align: left;
+  align-items: center;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f2f3;
+  padding: 50px 30px;
+  /* gap: 200px; */
+}
+
+.footernote {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+#cleaningservices{
+  width: 100%;
+}
+
+#contactus {
+  width: 100%;
+}
+
+#belowfooter {
+  padding: 20px 20px;
+}
+
+
+
+
+
+}

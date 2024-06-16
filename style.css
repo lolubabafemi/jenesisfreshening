@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #3d4c58;
+  background-color: rgb(255, 255, 255);
+  font-family: "poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #3d4c58;
+}
+
+a:hover {
+  color: #a27c35;
+}
+
+img {
+  max-width: 100%;
+}
+
+/********************* NAVIGATION *********************/
+
+
+
+header {
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+  padding: 5px 100px 5px 200px;
+  text-align: center;
+  align-items: center;
+  gap: 150px;
+}
+
+button {
+  color: #a27c35;
+  font-weight: 700;
+  font-size: 14px;
+  float: right;
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border-color: #a27c35;
+}
+
+button:hover {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  float: right;
+  background-color:#a27c35;
+  padding: 15px 25px;
+  border-radius: 30px;
+}
+
+
+
+.logoimage {
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+nav {
+  font-size: 14px;
+  color: #3d4c58;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/*********************** LANDING PAGE ************************/
+
+#landing {
+  align-content: center;
+  height: 90vh;
+  background-image: url(images/header2.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.logoimage2 {
+  display: none;
+}
+
+#landing h1 {
+  width: 50%;
+  border-radius: 15px;
+  color: #a27c35;
+  font-weight: 800;
+  font-size: 3.5rem;
+}
+
+#landing p {
+  width: 50%;
+  color: #3d4c58;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+/*************** EXPERT SECTION ***************** */
+
+#expert {
+  background-image: url(images/services\ background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #faf9f9;
+  color: #a27c35;
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#expert > div {
+  background-color: rgba(235, 242, 250, 0.9);
+  padding: 100px 50px;
+}
+
+.expertline {
+  width: 30%;
+  margin: 30px auto 0px;
+  transition: width 500ms;
+}
+
+.expertline:hover {
+  width: 50%;
+}
+
+
+
+
+
+
+/*************** ABOUT US ***************** */
+
+#aboutus {
+  display: flex;
+  gap: 30px;
+  padding: 50px 90px;
+  text-align: left;
+}
+
+
+
+#aboutus2 {
+  align-content: center;
+}
+
+#aboutus p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+#aboutus2 h2 {
+  font-size: 2.2rem;
+  color: #a27c35;
+}
+
+#aboutuscontent {
+  padding-right: 40px;
+  margin-top: 50px;
+  gap: 60px;
+  display: flex;
+}
+
+.visionmisson {
+  text-align: left;
+  border-radius: 20px;
+  color: white;
+  width: 40%;
+}
+
+.visionmisson h3 {
+  color: #a27c35;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.visionmisson p {
+  color: #3d4c58;
+}
+
+.smilingwoman2 {
+  display: none;
+}
+
+.smilingwoman {
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+}
+
+
+
+
+/*************** OUR SERVICES ***************** */
+
+
+
+
+
+#displayservices {
+  text-align: center;
+  margin-top: 100px;
+  background-image: url(images/services\ background.jpg);
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+#displayserviceswhite {
+  padding: 70px 0px;
+  background-color: rgba(235, 242, 250, 0.9);
+}
+
+
+#examples {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+#displayservices h2 {
+  color: #a27c35;
+  /* color: #009bdd; */
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.servicesoffered {
+  justify-content: center;
+  align-content: baseline;
+  font-weight: 600;
+  background-color: white;
+  color:#3d4c58;
+  font-size: 20px;
+  width: 20%;
+  /* height: 300px; */
+  padding: 50px 20px 5px 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 5px 4px 19px -1px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: 5px 4px 19px -1px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 5px 4px 19px -1px rgba(0, 0, 0, 0.21);
+}
+
+.servicename {
+  background-color: white;
+  padding: 10px;
+}
+
+#displayservices img {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.cleanicon {
+  border-radius: 5px;
+  width: 80%;
+  /* margin-top: -20px; */
+  /* height: px; */
+  transition: scale 200ms;
+}
+
+.cleanicon:hover {
+  scale: 110%;
+}
+
+
+
+
+
+
+/* GALLERY  */
+
+#gallery {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  /* width: 90%; */
+  gap: 30px;
+  padding: 0px 40px;
+}
+
+#gallery img:hover {
+  scale: 105%;
+}
+
+#gallery img{
+  transition: scale 400ms;
+  border-radius: 10px;
+}
+
+.galleryline {
+  width: 60%;
+  margin: auto;
+}
+
+
+
+
+
+/* <!-- WHY CHOOSE US  --> */
+
+#whyus {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  color: #3d4c58;
+  background-color: white;
+  padding: 100px 100px;
+  display: flex;
+  gap: 90px;
+}
+
+/* #whyus>div {
+  width: 40%;
+} */
+
+#whyus h3 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+#whyus p {
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+}
+
+#whyus img {
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+  }
+
+
+
+/* footer */
+
+footer {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  background-color: #f1f2f3;
+  padding: 50px 100px;
+  /* gap: 200px; */
+}
+
+.footernote {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+
+#cleaningservices {
+  width: 30%;
+}
+
+#cleaningservices img {
+  width: 13px;
+  margin-right: 10px;
+}
+
+#contactus {
+  width: 30%;
+  text-align: left;
+}
+
+#contactus h3 {
+  margin-bottom: 10px;
+}
+
+.contactusdtails a {
+  color: #3d4c58;
+  text-decoration: none;
+  /* display: flex; */
+}
+
+.contactusdtails a:hover {
+  color: #a27c35;
+  text-decoration: none;
+}
+
+.backtotop {
+  gap: 10px;
+  font-size: 1.3rem;
+  display: flex;
+}
+
+#belowfooter {
+  padding: 20px 100px;
+}
+
+
