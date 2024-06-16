@@ -21,21 +21,30 @@
 // });
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    var header = document.getElementById('header');
-    var lastScrollTop = 0;
+const carousel = document.querySelector('.carousel-inner');
+const items = document.querySelectorAll('.carousel-item');
+const prevButton = document.querySelector('.carousel-control.prev');
+const nextButton = document.querySelector('.carousel-control.next');
 
-    window.addEventListener('scroll', function() {
-        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+let currentIndex = 0;
 
-        if (scrollTop > lastScrollTop) {
-            Downscroll
-            header.classList.remove('visible');
-        } else {
-            Upscroll
-            header.classList.add('visible');
-        }
+function updateCarousel() {
+    const width = items[currentIndex].clientWidth;
+    carousel.style.transform = `translateX(-${currentIndex * width}px)`;
+}
 
-        lastScrollTop = scrollTop;
-    });
+prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex > 0) ? currentIndex - 1 : items.length - 1;
+    updateCarousel();
 });
+
+nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex < items.length - 1) ? currentIndex + 1 : 0;
+    updateCarousel();
+});
+
+// Optional: Automatically advance the carousel
+setInterval(() => {
+    nextButton.click();
+}, 3000);
+

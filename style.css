@@ -31,8 +31,6 @@ img {
 
 /********************* NAVIGATION *********************/
 
-
-
 header {
   width: 100%;
   background-color: white;
@@ -60,12 +58,10 @@ button:hover {
   font-weight: 700;
   font-size: 14px;
   float: right;
-  background-color:#a27c35;
+  background-color: #a27c35;
   padding: 15px 25px;
   border-radius: 30px;
 }
-
-
 
 .logoimage {
   height: 50px;
@@ -142,11 +138,6 @@ nav {
   width: 50%;
 }
 
-
-
-
-
-
 /*************** ABOUT US ***************** */
 
 #aboutus {
@@ -155,8 +146,6 @@ nav {
   padding: 50px 90px;
   text-align: left;
 }
-
-
 
 #aboutus2 {
   align-content: center;
@@ -203,19 +192,12 @@ nav {
 .smilingwoman {
   width: 45%;
   border-radius: 10px;
-  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
--webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
--moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
-
-
-
 /*************** OUR SERVICES ***************** */
-
-
-
-
 
 #displayservices {
   text-align: center;
@@ -229,7 +211,6 @@ nav {
   padding: 70px 0px;
   background-color: rgba(235, 242, 250, 0.9);
 }
-
 
 #examples {
   display: flex;
@@ -250,7 +231,7 @@ nav {
   align-content: baseline;
   font-weight: 600;
   background-color: white;
-  color:#3d4c58;
+  color: #3d4c58;
   font-size: 20px;
   width: 20%;
   /* height: 300px; */
@@ -284,37 +265,52 @@ nav {
   scale: 110%;
 }
 
-
-
-
-
-
 /* GALLERY  */
 
-#gallery {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  /* width: 90%; */
-  gap: 30px;
-  padding: 0px 40px;
-}
-
-#gallery img:hover {
-  scale: 105%;
-}
-
-#gallery img{
-  transition: scale 400ms;
+.carousel {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  overflow: hidden;
+  border: 2px solid #ddd;
   border-radius: 10px;
+  background-color: #fff;
 }
 
-.galleryline {
-  width: 60%;
-  margin: auto;
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
 }
 
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 100%;
+  display: block;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
 
 
 
@@ -349,12 +345,10 @@ nav {
 #whyus img {
   border-radius: 5px;
   width: 100%;
-  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
--webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
--moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
-  }
-
-
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+}
 
 /* footer */
 
@@ -379,7 +373,6 @@ ul {
   padding-left: 15px;
   margin-top: 10px;
 }
-
 
 #cleaningservices {
   width: 30%;
@@ -419,5 +412,3 @@ ul {
 #belowfooter {
   padding: 20px 100px;
 }
-
-
