@@ -42,7 +42,7 @@ header {
   gap: 150px;
 }
 
-button {
+/* button {
   color: #a27c35;
   font-weight: 700;
   font-size: 14px;
@@ -51,9 +51,9 @@ button {
   padding: 15px 25px;
   border-radius: 30px;
   border-color: #a27c35;
-}
+} */
 
-button:hover {
+/* button:hover {
   color: white;
   font-weight: 700;
   font-size: 14px;
@@ -61,7 +61,7 @@ button:hover {
   background-color: #a27c35;
   padding: 15px 25px;
   border-radius: 30px;
-}
+} */
 
 .logoimage {
   height: 50px;
@@ -268,6 +268,9 @@ nav {
 /* GALLERY  */
 
 .carousel {
+  margin: auto;
+  /* justify-content: center; */
+  /* display: flex; */
   position: relative;
   width: 80%;
   max-width: 800px;

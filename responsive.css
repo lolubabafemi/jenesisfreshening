@@ -222,7 +222,7 @@
   /* gallery  */
 
 
-  .galleryline, #gallery {
+  .carousel {
     display: none;
   }
 
