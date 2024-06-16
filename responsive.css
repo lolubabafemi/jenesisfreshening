@@ -247,13 +247,14 @@
   align-content: center;
   margin-top: 10px;
   color: #3d4c58;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 20px;
-  display: flex;
-  gap: 90px;
+  /* display: flex; */
+  /* gap: 90px; */
 }
 
 #whyus h3 {
+  margin-top: -70px;
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
