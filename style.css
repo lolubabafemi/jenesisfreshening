@@ -425,10 +425,26 @@ ul {
   /* font-size: 2em; */
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 500ms ease-in, transform 500ms ease-in;
+  transition: opacity 1s ease-in, transform 1s ease-in;
 }
 
 .section.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section2 {
+  /* height: 100vh; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* font-size: 2em; */
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+.section2.appear {
   opacity: 1;
   transform: translateY(0);
 }

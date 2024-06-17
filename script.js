@@ -68,3 +68,21 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(section);
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('.section2');
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('appear');
+                observer.unobserve(entry.target);  // Stop observing after adding the class
+            }
+        });
+    }, { threshold: 0.1 });
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+});
