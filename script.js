@@ -52,7 +52,7 @@ setInterval(() => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    const sections = document.querySelectorAll('.section');
+    const sections = document.querySelectorAll('.scroll-show');
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -69,9 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-
 document.addEventListener('DOMContentLoaded', () => {
-    const sections = document.querySelectorAll('.section2');
+    const sections = document.querySelectorAll('.scroll-stay');
 
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
@@ -86,3 +85,4 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(section);
     });
 });
+

@@ -29,6 +29,8 @@ img {
   max-width: 100%;
 }
 
+
+
 /********************* NAVIGATION *********************/
 
 header {
@@ -265,7 +267,7 @@ nav {
   scale: 110%;
 }
 
-/* GALLERY  */
+/***************** GALLERY  ***********************/
 
 #carousel {
   margin: auto;
@@ -417,7 +419,8 @@ ul {
   padding: 20px 100px;
 }
 
-.section {
+
+.scroll-show {
   /* height: 100vh; */
   /* display: flex; */
   /* justify-content: center; */
@@ -425,15 +428,15 @@ ul {
   /* font-size: 2em; */
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 1s ease-in, transform 1s ease-in;
+  transition: opacity 500ms ease-in, transform 1s ease-in;
 }
 
-.section.appear {
+.scroll-show.appear {
   opacity: 1;
   transform: translateY(0);
 }
 
-.section2 {
+.scroll-stay {
   /* height: 100vh; */
   /* display: flex; */
   /* justify-content: center; */
@@ -441,11 +444,12 @@ ul {
   /* font-size: 2em; */
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 1s ease-in, transform 1s ease-in;
+  transition: opacity 500ms ease-in, transform 500ms ease-in;
 }
 
-.section2.appear {
+.scroll-stay.appear {
   opacity: 1;
   transform: translateY(0);
 }
+
 
