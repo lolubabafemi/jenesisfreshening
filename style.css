@@ -44,26 +44,6 @@ header {
   gap: 150px;
 }
 
-/* button {
-  color: #a27c35;
-  font-weight: 700;
-  font-size: 14px;
-  float: right;
-  background-color: white;
-  padding: 15px 25px;
-  border-radius: 30px;
-  border-color: #a27c35;
-} */
-
-/* button:hover {
-  color: white;
-  font-weight: 700;
-  font-size: 14px;
-  float: right;
-  background-color: #a27c35;
-  padding: 15px 25px;
-  border-radius: 30px;
-} */
 
 .logoimage {
   height: 50px;
@@ -223,7 +203,6 @@ nav {
 
 #displayservices h2 {
   color: #a27c35;
-  /* color: #009bdd; */
   margin-bottom: 40px;
   font-size: 2.5rem;
 }
@@ -236,7 +215,6 @@ nav {
   color: #3d4c58;
   font-size: 20px;
   width: 20%;
-  /* height: 300px; */
   padding: 50px 20px 5px 20px;
   border-radius: 5px;
   text-align: center;
@@ -258,8 +236,6 @@ nav {
 .cleanicon {
   border-radius: 5px;
   width: 80%;
-  /* margin-top: -20px; */
-  /* height: px; */
   transition: scale 200ms;
 }
 
@@ -271,8 +247,6 @@ nav {
 
 #carousel {
   margin: auto;
-  /* justify-content: center; */
-  /* display: flex; */
   position: relative;
   width: 80%;
   max-width: 800px;
@@ -334,9 +308,6 @@ nav {
   gap: 90px;
 }
 
-/* #whyus>div {
-  width: 40%;
-} */
 
 #whyus h3 {
   font-size: 2.2rem;
@@ -345,7 +316,6 @@ nav {
 
 #whyus p {
   margin-bottom: 40px;
-  /* font-size: 1rem; */
 }
 
 #whyus img {
@@ -364,7 +334,6 @@ footer {
   display: flex;
   background-color: #f1f2f3;
   padding: 50px 100px;
-  /* gap: 200px; */
 }
 
 .footernote {
@@ -401,7 +370,6 @@ ul {
 .contactusdtails a {
   color: #3d4c58;
   text-decoration: none;
-  /* display: flex; */
 }
 
 .contactusdtails a:hover {
@@ -421,11 +389,6 @@ ul {
 
 
 .scroll-show {
-  /* height: 100vh; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* font-size: 2em; */
   opacity: 0;
   transform: translateY(100px);
   transition: opacity 500ms ease-in, transform 1s ease-in;
@@ -437,11 +400,6 @@ ul {
 }
 
 .scroll-stay {
-  /* height: 100vh; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* font-size: 2em; */
   opacity: 0;
   transform: translateY(100px);
   transition: opacity 500ms ease-in, transform 500ms ease-in;
